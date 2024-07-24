@@ -10,11 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class FundamentalsController {
   
   // Path param
-  @GetMapping("/primeiroMetodo/{id}")
+  @GetMapping("/pathParam/{id}")
   public String primeiroMetodo(@PathVariable String id){
     return "Hello World!" + id;
   }
-
-
 
 }
