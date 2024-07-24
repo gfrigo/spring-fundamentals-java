@@ -11,7 +11,7 @@ public class FundamentalsController {
   
   // Path param
   @GetMapping("/pathParam/{id}")
-  public String primeiroMetodo(@PathVariable String id){
+  public String pathParam(@PathVariable String id){
     return "Hello World!" + id;
   }
 
