@@ -1,6 +1,7 @@
 package com.fundamentals.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -8,9 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/primeiraController")
 public class FundamentalsController {
   
-  @GetMapping("/primeiroMetodo")
-  public String primeiroMetodo(){
-    return "Hello World!";
+  // Path param
+  @GetMapping("/primeiroMetodo/{id}")
+  public String primeiroMetodo(@PathVariable String id){
+    return "Hello World!" + id;
   }
+
+
 
 }
