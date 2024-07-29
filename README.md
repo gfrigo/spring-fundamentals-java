@@ -21,6 +21,6 @@
 * HTTP methods;
 * Rotas.
 
-# Rest API
+## Rest API
 
 ![Rest API](https://github.com/gfrigo/spring-fundamentals-java/blob/main/restApi.png)
