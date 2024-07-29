@@ -20,3 +20,7 @@
 * HTTP Status code;
 * HTTP methods;
 * Rotas.
+
+# Rest API
+
+![Alt text]([URL_da_imagem](https://github.com/gfrigo/spring-fundamentals-java/blob/main/restApi.png))
