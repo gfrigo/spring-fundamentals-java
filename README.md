@@ -23,4 +23,4 @@
 
 # Rest API
 
-![Alt text]([URL_da_imagem](https://github.com/gfrigo/spring-fundamentals-java/blob/main/restApi.png))
+![Rest API](https://github.com/gfrigo/spring-fundamentals-java/blob/main/restApi.png)
