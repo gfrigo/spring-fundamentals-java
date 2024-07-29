@@ -16,4 +16,7 @@
 * Response Entity;
 * IOC DI: AutoWired;
 * Components;
-* Services.
+* Services;
+* HTTP Status code;
+* HTTP methods;
+* Rotas.
